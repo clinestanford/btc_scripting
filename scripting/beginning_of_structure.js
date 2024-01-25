@@ -5,9 +5,9 @@ b.OP_1();
 // turns out the hexBytes assumes you are passing in literal Hex Bytes
 
 b.OP_IF();
-    b.hexBytes("5374616e666f7264");
+    b.hexBytes("5374616e666f7264");  // hex for Stanford
 b.OP_ELSE();
-    b.hexBytes("5468656f646f7265");
+    b.hexBytes("5468656f646f7265");  // hex for Theodore
 b.OP_ENDIF();
 
 b.OP_SHA256();
